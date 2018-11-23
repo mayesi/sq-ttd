@@ -32,5 +32,10 @@ namespace sq_ttd
             Angle3 = 180 - Angle1 - Angle2;
             return Angle3;
         }
+
+        public bool IsRightAngleTriangle()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

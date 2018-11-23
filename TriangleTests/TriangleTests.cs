@@ -24,5 +24,23 @@ namespace TriangleTests
             // Compare the result to expected
             Assert.AreEqual(expectedResult, third);
         }
+
+        [TestMethod]
+        public void CheckIfRightAngleTriangle_GivenTwoAngles()
+        {
+            UInt32 angle1 = 35;         // input 1
+            UInt32 angle2 = 55;         // input 2
+            bool expectedResult = true; // expected result
+
+            // Create a Triangle object and set two angles.
+            Triangle t1 = new Triangle();
+            t1.SetAngles(angle1, angle2);
+
+            // Get the results.
+            bool result = t1.IsRightAngleTriangle();
+
+            // Compare the result to expected.
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
