@@ -229,5 +229,19 @@ namespace TriangleTests
             Triangle t1 = new Triangle();
             t1.SetSides(side1, side2);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentException))]
+        public void InputValueIsNegative_Sides()
+        {
+            // Inputs
+            // Inputs
+            double side1 = 4;
+            double side2 = -5;
+
+            // Create a triangle and set it up.
+            Triangle t1 = new Triangle();
+            t1.SetSides(side1, side2);
+        }
     }
 }
