@@ -122,7 +122,7 @@
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="angleBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 131</value>
+    <value>125, 174</value>
   </data>
   <data name="angleBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -141,13 +141,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;angleBox1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="angleBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="angleBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>496, 131</value>
+    <value>484, 174</value>
   </data>
   <data name="angleBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -165,13 +165,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;angleBox2.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="angleBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="angleBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>872, 131</value>
+    <value>860, 174</value>
   </data>
   <data name="angleBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -189,13 +189,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;angleBox3.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="areaBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="areaBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 605</value>
+    <value>491, 802</value>
   </data>
   <data name="areaBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -213,10 +213,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;areaBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="calcAnglesButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 247</value>
+    <value>811, 259</value>
   </data>
   <data name="calcAnglesButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>289, 75</value>
@@ -237,10 +237,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;calcAnglesButton.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 702</value>
+    <value>448, 886</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>289, 75</value>
@@ -261,7 +261,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -291,13 +291,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="sideBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="sideBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 518</value>
+    <value>125, 631</value>
   </data>
   <data name="sideBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -315,13 +315,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sideBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="sideBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="sideBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 518</value>
+    <value>484, 631</value>
   </data>
   <data name="sideBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -339,13 +339,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sideBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="sideBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="sideBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>885, 518</value>
+    <value>860, 631</value>
   </data>
   <data name="sideBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -363,7 +363,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sideBox3.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -373,7 +373,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 383</value>
+    <value>112, 430</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>973, 116</value>
@@ -382,7 +382,7 @@
     <value>11</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Input the sides. If it is a right angle triangle the area and hypotenuse can be calculated.</value>
+    <value>Input two sides. If it is a right angle triangle the area and hypotenuse can be calculated.</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -394,40 +394,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="hypBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.9pt</value>
-  </data>
-  <data name="hypBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>692, 605</value>
-  </data>
-  <data name="hypBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 67</value>
-  </data>
-  <data name="hypBox.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;hypBox.Name" xml:space="preserve">
-    <value>hypBox</value>
-  </data>
-  <data name="&gt;&gt;hypBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hypBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;hypBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="hypButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="hypButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>643, 702</value>
+    <value>808, 716</value>
   </data>
   <data name="hypButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 75</value>
+    <value>289, 112</value>
   </data>
   <data name="hypButton.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -445,6 +421,57 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;hypButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 530</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>971, 84</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>A triangle consists of sides A and B and the hypotenuse. At least two angles must be set before calculation can happen.</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 96</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>917, 32</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Positive numbers only, between 0 and 180. Rounded to nearest degree.</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -454,10 +481,10 @@
     <value>16, 31</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1199, 847</value>
+    <value>1194, 1006</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
+    <value>Triangle Calculator</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

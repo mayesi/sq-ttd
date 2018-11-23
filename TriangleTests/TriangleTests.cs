@@ -125,5 +125,19 @@ namespace TriangleTests
             // Get the result
             double result = t1.CalculateArea();
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentException))]
+        public void AngleOutOfBoundsException()
+        {
+            // Inputs
+            uint angle1 = 300;
+            uint angle2 = 30;
+
+            // Create a triangle and set it up.
+            Triangle t1 = new Triangle();
+            t1.SetAngles(angle1, angle2);
+        }
+
     }
 }

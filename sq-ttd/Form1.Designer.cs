@@ -40,8 +40,9 @@
             this.sideBox2 = new System.Windows.Forms.TextBox();
             this.sideBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.hypBox = new System.Windows.Forms.TextBox();
             this.hypButton = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // angleBox1
@@ -73,12 +74,14 @@
             resources.ApplyResources(this.calcAnglesButton, "calcAnglesButton");
             this.calcAnglesButton.Name = "calcAnglesButton";
             this.calcAnglesButton.UseVisualStyleBackColor = true;
+            this.calcAnglesButton.Click += new System.EventHandler(this.calcAnglesButton_Click);
             // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -106,27 +109,31 @@
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // hypBox
-            // 
-            this.hypBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            resources.ApplyResources(this.hypBox, "hypBox");
-            this.hypBox.Name = "hypBox";
-            this.hypBox.ReadOnly = true;
             // 
             // hypButton
             // 
             resources.ApplyResources(this.hypButton, "hypButton");
             this.hypButton.Name = "hypButton";
             this.hypButton.UseVisualStyleBackColor = true;
+            this.hypButton.Click += new System.EventHandler(this.hypButton_Click);
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.hypButton);
-            this.Controls.Add(this.hypBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.sideBox3);
             this.Controls.Add(this.sideBox2);
@@ -158,8 +165,9 @@
         private System.Windows.Forms.TextBox sideBox2;
         private System.Windows.Forms.TextBox sideBox3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox hypBox;
         private System.Windows.Forms.Button hypButton;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
