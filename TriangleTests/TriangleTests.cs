@@ -92,7 +92,7 @@ namespace TriangleTests
         [ExpectedException(typeof(Triangle.NotRightAngleTriangleException))]
         public void CalculateHypotenuse_ThrowExceptionWhenNotRightTriangle()
         {
-            // inputs and expected result
+            // Inputs
             uint angle1 = 120;
             uint angle2 = 30;
             double side1 = 4.0;
@@ -105,6 +105,25 @@ namespace TriangleTests
 
             // Get the result.
             double result = t1.GetHypotenuse();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Triangle.NotRightAngleTriangleException))]
+        public void CalculateArea_ThrowExceptionWhenNotRightTriangle()
+        {
+            // Inputs
+            uint angle1 = 120;
+            uint angle2 = 30;
+            double side1 = 4.0;
+            double side2 = 5.0;
+
+            // Create a triangle and set it up.
+            Triangle t1 = new Triangle();
+            t1.SetAngles(angle1, angle2);
+            t1.SetSides(side1, side2);
+
+            // Get the result
+            double result = t1.CalculateArea();
         }
     }
 }
