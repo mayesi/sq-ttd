@@ -10,6 +10,7 @@ namespace TriangleTests
         [TestMethod]
         public void TestMethod1()
         {
+            
         }
     }
 }

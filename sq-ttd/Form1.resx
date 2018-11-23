@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;angleBox1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="angleBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
@@ -165,7 +165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;angleBox2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="angleBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
@@ -189,13 +189,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;angleBox3.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="areaBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="areaBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 605</value>
+    <value>325, 605</value>
   </data>
   <data name="areaBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -213,7 +213,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;areaBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="calcAnglesButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>459, 247</value>
@@ -237,10 +237,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;calcAnglesButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 700</value>
+    <value>279, 702</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>289, 75</value>
@@ -261,7 +261,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -291,7 +291,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="sideBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
@@ -315,7 +315,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sideBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="sideBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
@@ -339,7 +339,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sideBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="sideBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
@@ -363,7 +363,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sideBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -394,6 +394,57 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="hypBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.9pt</value>
+  </data>
+  <data name="hypBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 605</value>
+  </data>
+  <data name="hypBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 67</value>
+  </data>
+  <data name="hypBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;hypBox.Name" xml:space="preserve">
+    <value>hypBox</value>
+  </data>
+  <data name="&gt;&gt;hypBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hypBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hypBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="hypButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="hypButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 702</value>
+  </data>
+  <data name="hypButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 75</value>
+  </data>
+  <data name="hypButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="hypButton.Text" xml:space="preserve">
+    <value>calculate hypotenuse</value>
+  </data>
+  <data name="&gt;&gt;hypButton.Name" xml:space="preserve">
+    <value>hypButton</value>
+  </data>
+  <data name="&gt;&gt;hypButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hypButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;hypButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

@@ -40,6 +40,8 @@
             this.sideBox2 = new System.Windows.Forms.TextBox();
             this.sideBox3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.hypBox = new System.Windows.Forms.TextBox();
+            this.hypButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // angleBox1
@@ -106,10 +108,25 @@
             this.label2.Name = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // hypBox
+            // 
+            this.hypBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            resources.ApplyResources(this.hypBox, "hypBox");
+            this.hypBox.Name = "hypBox";
+            this.hypBox.ReadOnly = true;
+            // 
+            // hypButton
+            // 
+            resources.ApplyResources(this.hypButton, "hypButton");
+            this.hypButton.Name = "hypButton";
+            this.hypButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.hypButton);
+            this.Controls.Add(this.hypBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.sideBox3);
             this.Controls.Add(this.sideBox2);
@@ -141,6 +158,8 @@
         private System.Windows.Forms.TextBox sideBox2;
         private System.Windows.Forms.TextBox sideBox3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox hypBox;
+        private System.Windows.Forms.Button hypButton;
     }
 }
 

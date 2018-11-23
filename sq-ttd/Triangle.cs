@@ -8,9 +8,9 @@ namespace sq_ttd
 {
     class Triangle
     {
-        private int angle1;
-        private int angle2;
-        private int angle3;
+        private UInt32 angle1;
+        private UInt32 angle2;
+        private UInt32 angle3;
 
         public Triangle()
         {
