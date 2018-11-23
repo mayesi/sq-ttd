@@ -11,10 +11,16 @@ namespace sq_ttd
         private uint angle1 = 0;
         private uint angle2 = 0;
         private uint angle3 = 0;
+        private double sideA = 0;
+        private double sideB = 0;
+        private double sideC = 0;
 
         public uint Angle1 { get => angle1; set => angle1 = value; }
         public uint Angle2 { get => angle2; set => angle2 = value; }
         public uint Angle3 { get => angle3; set => angle3 = value; }
+        public double SideA { get => sideA; set => sideA = value; }
+        public double SideB { get => sideB; set => sideB = value; }
+        public double SideC { get => sideC; set => sideC = value; }
 
         public Triangle()
         {
@@ -50,12 +56,19 @@ namespace sq_ttd
 
         public void SetSides(double side1, double side2)
         {
-            throw new NotImplementedException();
+            SideA = side1;
+            SideB = side2;
+            SetSideC();
+        }
+
+        private void SetSideC()
+        {
+            SideC = Math.Sqrt(Math.Pow(SideA, 2.0) + Math.Pow(SideB, 2.0));
         }
 
         public double GetHypotenuse()
         {
-            throw new NotImplementedException();
+            return Math.Round(SideC, 1);
         }
     }
 }
