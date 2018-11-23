@@ -131,6 +131,10 @@ namespace sq_ttd
             {
                 throw new ArgumentException("Side length of zero is invalid.");
             }
+            if(side1 < 0 || side2 < 0)
+            {
+                throw new ArgumentException("Side length cannot be a negative value.");
+            }
             SideA = side1;
             SideB = side2;
             SetSideC();
