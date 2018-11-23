@@ -216,5 +216,18 @@ namespace TriangleTests
             Triangle t1 = new Triangle();
             t1.SetAngles(angle1, angle2);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentException))]
+        public void InputValueIsZeroException_Sides()
+        {
+            // Inputs
+            double side1 = 0;
+            double side2 = 5;
+
+            // Create a triangle and set it up.
+            Triangle t1 = new Triangle();
+            t1.SetSides(side1, side2);
+        }
     }
 }
