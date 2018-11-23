@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -68,6 +69,11 @@ namespace sq_ttd
 
         public double GetHypotenuse()
         {
+            if(!IsRightAngleTriangle())
+            {
+                NotRightAngleTriangleException ex = new NotRightAngleTriangleException("Cannot calculate: not a right angle triangle.");
+                throw ex;
+            }
             return Math.Round(SideC, 1);
         }
 
@@ -76,8 +82,20 @@ namespace sq_ttd
             return Math.Round(SideA * SideB / 2.0, 1);
         }
 
-        public class NotRightAngleTriangleException
+        public class NotRightAngleTriangleException : Exception
         {
+            public NotRightAngleTriangleException()
+            {
+            }
+
+            public NotRightAngleTriangleException(string message) : base(message)
+            {
+            }
+
+            public NotRightAngleTriangleException(string message, Exception innerException) : base(message, innerException)
+            {
+            }
+
         }
     }
 }
