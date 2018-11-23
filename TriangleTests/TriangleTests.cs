@@ -203,5 +203,18 @@ namespace TriangleTests
             t1.SetAngles(angle1, angle2);
         }
 
+
+        [TestMethod]
+        [ExpectedException(typeof(System.ArgumentException))]
+        public void InputValueIsZeroException_Angles()
+        {
+            // Inputs
+            uint angle1 = 0;
+            uint angle2 = 90;
+
+            // Create a triangle and set it up.
+            Triangle t1 = new Triangle();
+            t1.SetAngles(angle1, angle2);
+        }
     }
 }
