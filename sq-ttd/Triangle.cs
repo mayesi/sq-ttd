@@ -79,6 +79,11 @@ namespace sq_ttd
 
         public double CalculateArea()
         {
+            if (!IsRightAngleTriangle())
+            {
+                NotRightAngleTriangleException ex = new NotRightAngleTriangleException("Cannot calculate: not a right angle triangle.");
+                throw ex;
+            }
             return Math.Round(SideA * SideB / 2.0, 1);
         }
 
