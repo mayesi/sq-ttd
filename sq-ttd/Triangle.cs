@@ -70,5 +70,10 @@ namespace sq_ttd
         {
             return Math.Round(SideC, 1);
         }
+
+        public double CalculateArea()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
