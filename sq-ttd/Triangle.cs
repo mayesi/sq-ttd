@@ -66,6 +66,10 @@ namespace sq_ttd
             {
                 throw new ArgumentException("Angle out of bounds.");
             }
+            if (angle1 == 0 || angle2 == 0)
+            {
+                throw new ArgumentException("Angle of zero is not allowed.");
+            }
             Angle1 = angle1;
             Angle2 = angle2;
             SetThirdAngle();
