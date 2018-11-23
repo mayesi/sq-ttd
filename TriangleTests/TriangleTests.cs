@@ -1,12 +1,33 @@
-﻿using System;
+﻿/*  
+ *  File:       TriangleTests.cs
+ *  Project:    Software Quality 1 Assignment 2
+ *  Programmer: Maye Inwood
+ *  Date:       November 23, 2018
+ *  Description:
+ *      This file contains the unit testing class TriangleTests. This class contains
+ *      unit tests for the Triangle class.
+ */
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using sq_ttd;
 
 namespace TriangleTests
 {
+    /*
+     *  Name:       TriangleTests
+     *  Description:
+     *      This class contains unit tests for the Triangle class.
+     */
     [TestClass]
     public class TriangleTests
     {
+        /*  
+         *  Name:       SetTwoValidAngles_CalculateTheThird()
+         *  Description:
+         *      Tests for the successful calculation of the third angle, given two valid
+         *      angles (positive integers between 0 and 180).
+         */
         [TestMethod]
         public void SetTwoValidAngles_CalculateTheThird()
         {
@@ -25,6 +46,14 @@ namespace TriangleTests
             Assert.AreEqual(expectedResult, third);
         }
 
+
+        /*  
+         *  Name:       CheckIfRightAngleTriangle_GivenTwoAngles()
+         *  Description:
+         *      Tests for the successful determination of a right angle triangle given
+         *      two valid angles (positive integers between 0 and 180) that would result 
+         *      in the third being 90.
+         */
         [TestMethod]
         public void CheckIfRightAngleTriangle_GivenTwoAngles()
         {
@@ -44,6 +73,13 @@ namespace TriangleTests
         }
 
 
+        /*  
+         *  Name:       FindHypotenuse_GivenValidInput()
+         *  Description:
+         *      Tests for the successful calculation of the hypotenuse, given two valid
+         *      angles (positive integers between 0 and 180) that result in the triangle
+         *      being a right angle triangle.
+         */
         [TestMethod]
         public void FindHypotenuse_GivenValidInput()
         {
@@ -66,6 +102,14 @@ namespace TriangleTests
         }
 
 
+        /*  
+         *  Name:       CalculateArea_GivenRightAngleTriangle()
+         *  Description:
+         *      Tests for the successful calculation of the area, given two valid
+         *      angles (positive integers between 0 and 180) that result in the triangle
+         *      being a right angle triangle. Also, given two valid sides (positive 
+         *      numbers).
+         */
         [TestMethod]
         public void CalculateArea_GivenRightAngleTriangle()
         {
@@ -88,6 +132,12 @@ namespace TriangleTests
         }
 
 
+        /*  
+         *  Name:       CalculateHypotenuse_ThrowExceptionWhenNotRightTriangle()
+         *  Description:
+         *      Tests for the GetHypotenuse() method throwing an exception when used
+         *      when the triangle is not a right angle triangle.
+         */
         [TestMethod]
         [ExpectedException(typeof(Triangle.NotRightAngleTriangleException))]
         public void CalculateHypotenuse_ThrowExceptionWhenNotRightTriangle()
@@ -107,6 +157,13 @@ namespace TriangleTests
             double result = t1.GetHypotenuse();
         }
 
+
+        /*  
+         *  Name:       CalculateHypotenuse_ThrowExceptionWhenNotRightTriangle()
+         *  Description:
+         *      Tests for the CalculateArea() method throwing an exception when used
+         *      when the triangle is not a right angle triangle.
+         */
         [TestMethod]
         [ExpectedException(typeof(Triangle.NotRightAngleTriangleException))]
         public void CalculateArea_ThrowExceptionWhenNotRightTriangle()
@@ -126,6 +183,13 @@ namespace TriangleTests
             double result = t1.CalculateArea();
         }
 
+
+        /*  
+         *  Name:       AngleOutOfBoundsException()
+         *  Description:
+         *      Tests for the SetAngles() method throwing an exception when using
+         *      inputs that are out of range (outside 0 to 180).
+         */
         [TestMethod]
         [ExpectedException(typeof(System.ArgumentException))]
         public void AngleOutOfBoundsException()
