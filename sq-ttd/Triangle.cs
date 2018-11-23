@@ -8,9 +8,9 @@ namespace sq_ttd
 {
     public class Triangle
     {
-        private UInt32 angle1;
-        private UInt32 angle2;
-        private UInt32 angle3;
+        private uint angle1 = 0;
+        private uint angle2 = 0;
+        private uint angle3 = 0;
 
         public uint Angle1 { get => angle1; set => angle1 = value; }
         public uint Angle2 { get => angle2; set => angle2 = value; }
@@ -25,17 +25,27 @@ namespace sq_ttd
         {
             Angle1 = angle1;
             Angle2 = angle2;
+            SetThirdAngle();
+        }
+
+        private void SetThirdAngle()
+        {
+            Angle3 = 180 - Angle1 - Angle2;
         }
 
         public uint CalculateThirdAngle()
         {
-            Angle3 = 180 - Angle1 - Angle2;
             return Angle3;
         }
 
         public bool IsRightAngleTriangle()
         {
-            throw new NotImplementedException();
+            bool retVal = false;
+            if (Angle1 == 90 || Angle2 == 90 || Angle3 == 90)
+            {
+                retVal = true;
+            }
+            return retVal;
         }
     }
 }
