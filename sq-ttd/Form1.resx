@@ -118,84 +118,84 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="angle1Box.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="angleBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
-  <data name="angle1Box.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="angleBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 131</value>
   </data>
-  <data name="angle1Box.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="angleBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="angle1Box.TabIndex" type="System.Int32, mscorlib">
+  <data name="angleBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;angle1Box.Name" xml:space="preserve">
-    <value>angle1Box</value>
+  <data name="&gt;&gt;angleBox1.Name" xml:space="preserve">
+    <value>angleBox1</value>
   </data>
-  <data name="&gt;&gt;angle1Box.Type" xml:space="preserve">
+  <data name="&gt;&gt;angleBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;angle1Box.Parent" xml:space="preserve">
+  <data name="&gt;&gt;angleBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;angle1Box.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;angleBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="angle2Box.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="angleBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
-  <data name="angle2Box.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="angleBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>496, 131</value>
   </data>
-  <data name="angle2Box.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="angleBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
   </data>
-  <data name="angle2Box.TabIndex" type="System.Int32, mscorlib">
+  <data name="angleBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;angle2Box.Name" xml:space="preserve">
-    <value>angle2Box</value>
+  <data name="&gt;&gt;angleBox2.Name" xml:space="preserve">
+    <value>angleBox2</value>
   </data>
-  <data name="&gt;&gt;angle2Box.Type" xml:space="preserve">
+  <data name="&gt;&gt;angleBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;angle2Box.Parent" xml:space="preserve">
+  <data name="&gt;&gt;angleBox2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;angle2Box.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;angleBox2.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="angle3Box.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="angleBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
-  <data name="angle3Box.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="angleBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>872, 131</value>
   </data>
-  <data name="angle3Box.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="angleBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
   </data>
-  <data name="angle3Box.TabIndex" type="System.Int32, mscorlib">
+  <data name="angleBox3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;angle3Box.Name" xml:space="preserve">
-    <value>angle3Box</value>
+  <data name="&gt;&gt;angleBox3.Name" xml:space="preserve">
+    <value>angleBox3</value>
   </data>
-  <data name="&gt;&gt;angle3Box.Type" xml:space="preserve">
+  <data name="&gt;&gt;angleBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;angle3Box.Parent" xml:space="preserve">
+  <data name="&gt;&gt;angleBox3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;angle3Box.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;angleBox3.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="areaBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
   <data name="areaBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>496, 439</value>
+    <value>509, 605</value>
   </data>
   <data name="areaBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 67</value>
@@ -213,7 +213,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;areaBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="calcAnglesButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>459, 247</value>
@@ -237,10 +237,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;calcAnglesButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 534</value>
+    <value>459, 700</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>289, 75</value>
@@ -261,7 +261,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -291,34 +291,109 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="feedbackLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom</value>
+  <data name="sideBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.9pt</value>
   </data>
-  <data name="feedbackLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="sideBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 518</value>
   </data>
-  <data name="feedbackLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 356</value>
+  <data name="sideBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 67</value>
   </data>
-  <data name="feedbackLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 32</value>
-  </data>
-  <data name="feedbackLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="sideBox1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;feedbackLabel.Name" xml:space="preserve">
-    <value>feedbackLabel</value>
+  <data name="&gt;&gt;sideBox1.Name" xml:space="preserve">
+    <value>sideBox1</value>
   </data>
-  <data name="&gt;&gt;feedbackLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;sideBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;feedbackLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;sideBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;feedbackLabel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;sideBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="sideBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.9pt</value>
+  </data>
+  <data name="sideBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 518</value>
+  </data>
+  <data name="sideBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 67</value>
+  </data>
+  <data name="sideBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;sideBox2.Name" xml:space="preserve">
+    <value>sideBox2</value>
+  </data>
+  <data name="&gt;&gt;sideBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sideBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sideBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sideBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.9pt</value>
+  </data>
+  <data name="sideBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 518</value>
+  </data>
+  <data name="sideBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 67</value>
+  </data>
+  <data name="sideBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;sideBox3.Name" xml:space="preserve">
+    <value>sideBox3</value>
+  </data>
+  <data name="&gt;&gt;sideBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sideBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sideBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 383</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>973, 116</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Input the sides. If it is a right angle triangle the area can be calculated.</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -328,7 +403,7 @@
     <value>16, 31</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1199, 645</value>
+    <value>1199, 847</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>

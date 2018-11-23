@@ -29,35 +29,42 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.angle1Box = new System.Windows.Forms.TextBox();
-            this.angle2Box = new System.Windows.Forms.TextBox();
-            this.angle3Box = new System.Windows.Forms.TextBox();
+            this.angleBox1 = new System.Windows.Forms.TextBox();
+            this.angleBox2 = new System.Windows.Forms.TextBox();
+            this.angleBox3 = new System.Windows.Forms.TextBox();
             this.areaBox = new System.Windows.Forms.TextBox();
             this.calcAnglesButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.feedbackLabel = new System.Windows.Forms.Label();
+            this.sideBox1 = new System.Windows.Forms.TextBox();
+            this.sideBox2 = new System.Windows.Forms.TextBox();
+            this.sideBox3 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // angle1Box
+            // angleBox1
             // 
-            resources.ApplyResources(this.angle1Box, "angle1Box");
-            this.angle1Box.Name = "angle1Box";
+            resources.ApplyResources(this.angleBox1, "angleBox1");
+            this.angleBox1.Name = "angleBox1";
             // 
-            // angle2Box
+            // angleBox2
             // 
-            resources.ApplyResources(this.angle2Box, "angle2Box");
-            this.angle2Box.Name = "angle2Box";
+            resources.ApplyResources(this.angleBox2, "angleBox2");
+            this.angleBox2.Name = "angleBox2";
             // 
-            // angle3Box
+            // angleBox3
             // 
-            resources.ApplyResources(this.angle3Box, "angle3Box");
-            this.angle3Box.Name = "angle3Box";
+            this.angleBox3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            resources.ApplyResources(this.angleBox3, "angleBox3");
+            this.angleBox3.Name = "angleBox3";
+            this.angleBox3.ReadOnly = true;
             // 
             // areaBox
             // 
+            this.areaBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             resources.ApplyResources(this.areaBox, "areaBox");
             this.areaBox.Name = "areaBox";
+            this.areaBox.ReadOnly = true;
             // 
             // calcAnglesButton
             // 
@@ -76,23 +83,44 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // feedbackLabel
+            // sideBox1
             // 
-            resources.ApplyResources(this.feedbackLabel, "feedbackLabel");
-            this.feedbackLabel.Name = "feedbackLabel";
+            resources.ApplyResources(this.sideBox1, "sideBox1");
+            this.sideBox1.Name = "sideBox1";
+            // 
+            // sideBox2
+            // 
+            resources.ApplyResources(this.sideBox2, "sideBox2");
+            this.sideBox2.Name = "sideBox2";
+            // 
+            // sideBox3
+            // 
+            this.sideBox3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            resources.ApplyResources(this.sideBox3, "sideBox3");
+            this.sideBox3.Name = "sideBox3";
+            this.sideBox3.ReadOnly = true;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.feedbackLabel);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.sideBox3);
+            this.Controls.Add(this.sideBox2);
+            this.Controls.Add(this.sideBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.calcAnglesButton);
             this.Controls.Add(this.areaBox);
-            this.Controls.Add(this.angle3Box);
-            this.Controls.Add(this.angle2Box);
-            this.Controls.Add(this.angle1Box);
+            this.Controls.Add(this.angleBox3);
+            this.Controls.Add(this.angleBox2);
+            this.Controls.Add(this.angleBox1);
             this.Name = "Form1";
             this.Tag = "";
             this.ResumeLayout(false);
@@ -102,14 +130,17 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox angle1Box;
-        private System.Windows.Forms.TextBox angle2Box;
-        private System.Windows.Forms.TextBox angle3Box;
+        private System.Windows.Forms.TextBox angleBox1;
+        private System.Windows.Forms.TextBox angleBox2;
+        private System.Windows.Forms.TextBox angleBox3;
         private System.Windows.Forms.TextBox areaBox;
         private System.Windows.Forms.Button calcAnglesButton;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label feedbackLabel;
+        private System.Windows.Forms.TextBox sideBox1;
+        private System.Windows.Forms.TextBox sideBox2;
+        private System.Windows.Forms.TextBox sideBox3;
+        private System.Windows.Forms.Label label2;
     }
 }
 
