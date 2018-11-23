@@ -30,6 +30,10 @@ namespace sq_ttd
 
         public void SetAngles(uint angle1, uint angle2)
         {
+            if (angle1 > 180 || angle2 > 180)
+            {
+                throw new ArgumentException("Angle out of bounds.");
+            }
             Angle1 = angle1;
             Angle2 = angle2;
             SetThirdAngle();
