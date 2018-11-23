@@ -75,5 +75,9 @@ namespace sq_ttd
         {
             return Math.Round(SideA * SideB / 2.0, 1);
         }
+
+        public class NotRightAngleTriangleException
+        {
+        }
     }
 }
