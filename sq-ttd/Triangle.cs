@@ -127,6 +127,10 @@ namespace sq_ttd
          */
         public void SetSides(double side1, double side2)
         {
+            if(side1 == 0 || side2 == 0)
+            {
+                throw new ArgumentException("Side length of zero is invalid.");
+            }
             SideA = side1;
             SideB = side2;
             SetSideC();
