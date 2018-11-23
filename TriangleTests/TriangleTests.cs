@@ -42,5 +42,28 @@ namespace TriangleTests
             // Compare the result to expected.
             Assert.AreEqual(expectedResult, result);
         }
+
+
+        [TestMethod]
+        public void FindHypotenuse_GivenValidInput()
+        {
+            // inputs and expected result
+            uint angle1 = 90;
+            uint angle2 = 45;
+            double side1 = 4.0;
+            double side2 = 5.0;
+            double expectedResult = Math.Round(Math.Sqrt(Math.Pow(side1, 2.0) + Math.Pow(side2, 2.0)), 1);
+            //double expectedResult = 6.4;
+
+            // Create a triangle and set it up.
+            Triangle t1 = new Triangle();
+            t1.SetAngles(angle1, angle2);
+            t1.SetSides(side1, side2);
+
+            // Get the result
+            double result = t1.GetHypotenuse();
+
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }

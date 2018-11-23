@@ -47,5 +47,15 @@ namespace sq_ttd
             }
             return retVal;
         }
+
+        public void SetSides(double side1, double side2)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double GetHypotenuse()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
