@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace sq_ttd
 {
-    class Triangle
+    public class Triangle
     {
         private UInt32 angle1;
         private UInt32 angle2;
@@ -17,5 +17,14 @@ namespace sq_ttd
 
         }
 
+        public void SetAngles(uint angle1, uint angle2)
+        {
+            throw new NotImplementedException();
+        }
+
+        public uint CalculateThirdAngle()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
