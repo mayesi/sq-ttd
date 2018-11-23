@@ -158,6 +158,7 @@ namespace sq_ttd
          *  Name: GetHypotenuse()
          *  Description: Returns the value of the hypotenuse rounded to one decimal point. 
          *      An exception will be thrown if the triangle is not a right angle triangle.
+         *      Does not guarantee that the triangle is a real triangle.
          *  Parameters: none
          *  Return: double - the hypotenuse
          */

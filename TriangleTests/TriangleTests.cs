@@ -204,6 +204,12 @@ namespace TriangleTests
         }
 
 
+        /*  
+         *  Name:       InputValueIsZeroException_Angles()
+         *  Description:
+         *      Tests for the SetAngles() method throwing an exception when using
+         *      inputs that are zero.
+         */
         [TestMethod]
         [ExpectedException(typeof(System.ArgumentException))]
         public void InputValueIsZeroException_Angles()
@@ -217,6 +223,13 @@ namespace TriangleTests
             t1.SetAngles(angle1, angle2);
         }
 
+
+        /*  
+         *  Name:       InputValueIsZeroException_Sides()
+         *  Description:
+         *      Tests for the SetSides() method throwing an exception when using
+         *      inputs that are zero.
+         */
         [TestMethod]
         [ExpectedException(typeof(System.ArgumentException))]
         public void InputValueIsZeroException_Sides()
@@ -230,6 +243,13 @@ namespace TriangleTests
             t1.SetSides(side1, side2);
         }
 
+
+        /*  
+         *  Name:       InputValueIsNegative_Sides()
+         *  Description:
+         *      Tests for the SetSides() method throwing an exception when using
+         *      inputs that are negative numbers.
+         */
         [TestMethod]
         [ExpectedException(typeof(System.ArgumentException))]
         public void InputValueIsNegative_Sides()
